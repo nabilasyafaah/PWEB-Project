@@ -1,0 +1,145 @@
+.navigasi{
+    width: 100%;
+    height: 1.8cm;
+    padding-top: 10px;
+    position: fixed;
+    background-color: rgba(32, 178, 171, 0.479);
+}
+.navigasi img{
+    width: 200px;
+    float: left;
+}
+.navigasi input{
+    width: 20%;
+    height: 1cm;
+    border-radius: 30px;
+    border-color: white;
+}
+.navigasi a{
+    text-decoration: none;
+    color: rgb(37, 37, 37);
+    float: right;
+    background-color: white;
+    margin: 15px 10px;
+    border: solid rgb(78, 78, 78);
+    border-radius: 10px;
+    padding: 5px;
+}
+.container{
+    width: 100%;
+    display: flex;
+    height: auto;
+    
+}
+.filter{
+    width: 18%;
+    height: auto;
+    font-size: 20px;
+}
+.filter h1{
+    font-weight: bold;
+    color: rgb(12, 65, 83);
+}
+.filter h1,ul{
+    padding: 10px 10%;
+}
+.contain{
+    width: 98%;
+    height: 800px;
+}
+.box{
+    width: 100%;
+    height: 170px;
+    margin: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.box img{
+    width: 200px;
+    border-radius: 30px;
+}
+.box .isi{
+    width: 50%;
+    background-color: beige;
+}
+.box .isi img{
+    width: 30%;
+}
+.box .isi a{
+    text-decoration: none;
+}
+.box .isi h1{
+    font-weight: bold;
+    font-size: 30px;
+    color: black;
+    
+}
+.box .isi p{
+    font-size: 20px;
+}
+.isi2{
+    padding: 10px;
+    background-color: lightblue;
+    
+}
+.box .isi2{
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+}
+.contain h1{
+    font-weight: bold;
+    font-size: 30px;
+
+}
+.contain ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-weight: bold;
+    font-size: 25px;
+    color: rgb(19, 95, 121);
+    
+}
+.contain ul li{
+    border: solid brown;
+    border-radius: 10px;
+    padding: 6px;
+}
+.box2{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 255, 0.568);
+    padding: 20px;
+}
+
+.box2 ul{
+    justify-content: start;
+    width: 30%;
+
+
+}
+.box2 ul li a{
+    text-decoration: none;
+}
+.box2 ul li{
+    border: solid rgba(165, 42, 42, 0);
+    border-radius: 10px;
+    padding: 6px;
+    background-color: white;
+    margin: 5px;
+    
+}
+.box2 ul li:hover{
+    color: white;
+    background-color: rgb(5, 0, 36);
+}
+.box-images img{
+    width: 250px;
+    border-radius: 50px;
+}
+.box-images{
+    width: 100%;
+    justify-content: center;
+}
